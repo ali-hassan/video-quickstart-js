@@ -19,7 +19,7 @@
     "build:examples:remotereconnection": "copyfiles -f examples/remotereconnection/src/helpers.js examples/remotereconnection/public && browserify examples/remotereconnection/src/index.js > examples/remotereconnection/public/index.js",
     "build:examples:datatracks": "copyfiles -f examples/datatracks/src/helpers.js examples/datatracks/public && browserify examples/datatracks/src/index.js > examples/datatracks/public/index.js",
     "build:quickstart": "browserify quickstart/src/index.js > quickstart/public/index.js",
-    "start": "npm run clean && npm run build && node server"
+    "start": "npm run build && node server"
   },
   "repository": {
     "type": "git",
